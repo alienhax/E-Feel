@@ -70,13 +70,22 @@
   
      
             <p class="lead">
-              <a href="/uploaded_images/final.mp4" class="btn btn-lg btn-default">Watch Video!</a>
+              <a href="/uploaded_images/final.mpg" class="btn btn-lg btn-default">Watch Video!</a>
             </p>
+
+            <div class="col-md-9 col-md-push-3">Dance Clubs</div>
+              <div class="img_block">
+                            <img src="/images/Club_Mansion.jpg" alt="" />
+              <div class="col-md-3 col-md-pull-9">Rock Climbing</div>
+            </div>
+
+
+
           </div>
 
           <div class="mastfoot">
             <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+              
             </div>
           </div>
 

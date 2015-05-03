@@ -39,6 +39,7 @@
       // Logged into your app and Facebook.
       testAPI();
     } else if (response.status === 'not_authorized') {
+      window.location('/index2.php');
       // The person is logged into Facebook, but not your app.
       document.getElementById('status').innerHTML = 'Please log ' +
         'into this app.';
@@ -126,14 +127,16 @@
             <h1 class="cover-heading">Welcome to E-Feel</h1>
             <p class="lead">E-Feel is a user-friendly application for building simple and beautiful collage of pictures and implementing your song of choice to match your wonderful creation. Tag your friends in group pictures you would like to add to your collage, and once authorized by your friends, you can then add them to your collage as well! </p>
             <p class="lead">
+              <!--
               <a href="#" class="btn btn-lg btn-default">Start Your Creation!</a>
+              -->
               <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
             </p>
           </div>
 
           <div class="mastfoot">
             <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+              
             </div>
           </div>
 

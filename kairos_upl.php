@@ -119,8 +119,6 @@ if($_FILES['file_img3']['tmp_name'] != '') {
 			//match found, include in results
 			//TEST remove
 			array_push($arr_matched_subj_ids, $obj_recognize->images[0]->transaction->subject);
-			var_dump($arr_matched_subj_ids);
-			die('XX_XX');
 			//enroll anyway
 			$obj_enroll = json_decode($Kairos->enrollImageWithPath($str_target_path, $gallery_id, $subject_id3));
 			foreach ($obj_enroll->images as $key => $value) {
@@ -215,8 +213,8 @@ if($_FILES['file_mp3']['tmp_name'] != '') {
 
 
 
-$_SESSION['arr_found'] = $arr_matched_subj_ids;
+$_SESSION['arr_found']= $arr_matched_subj_ids;
 $_SESSION['arr_errors'] = $arr_errors;
-$_SESSION['arr_enrolled'] = $arr_enroll_subj_ids;
+$_SESSION['arr_enrolled']= $arr_enroll_subj_ids;
 
 header('Location: /confirmation.php');

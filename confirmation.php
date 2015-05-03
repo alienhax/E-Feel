@@ -55,6 +55,8 @@
 
           <div class="inner cover">
             <h1 class="cover-heading">Welcome to E-Feel</h1>
+
+            <h3><a href="/index2.php">Add More?</a></h3>
             <div class="row">
       <form action="/success.php" method="post">
         <div class="col-xs-8 col-sm-6">

@@ -1,0 +1,13 @@
+title=EWM Realty International
+major_version=1
+minor_version=0
+build_version=00000
+mm_icon_focus_hd=pkg:/assets/HD_Poster-290x218.png
+mm_icon_side_hd=pkg:/assets/HD_Poster-290x218.png
+mm_icon_focus_sd=pkg:/assets/SD_Poster-214x144.png
+mm_icon_side_sd=pkg:/assets/SD_Poster-214x144.png
+splash_screen_sd=pkg:/images/mm_icon_focus_sd.png
+splash_screen_hd=pkg:/images/mm_icon_focus_hd.png
+splash_color=#000000
+splash_min_time=5
+imajor_version=1
